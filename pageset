@@ -1,0 +1,57 @@
+.mso ru.tmac
+.hla ru
+.hy 4
+.hy 8
+.
+.nr PO 1c
+.nr LL 19c
+.nr PS 20pt
+.nr VS 22pt
+.nr HM 0.5c
+.nr FM 2c
+.nr PSINC 2pt
+.nr PI 1.5c
+.nr PD 0.2v
+.
+.nr FL \n[LL]
+.nr FPS 14pt
+.
+.ds CH
+.ds LF \s'12'
+.ds CF \En[PN]
+.
+.fam U-BM
+.
+.blm PP
+.
+.EQ
+delim ``
+.EN
+.
+.de mech
+.IP
+.ft U-CR
+.bd U-CR 1 \" artificial embolding
+..
+.
+.de table-header
+.KS
+.LP
+.I
+.ps 13pt
+.vs 15pt
+.rj
+..
+.
+.de table
+.LP
+.R
+.ps 12pt
+.vs 14pt
+..
+.
+.de table-end
+.KE
+.br
+..
+.\" vim:ft=groff
